@@ -7,38 +7,58 @@
 }
 .left-column {
     width: 50%;
+    margin-left: 2rem;
+    margin-top: 0rem;
 }
 .right-column {
     width: 50%;
+    margin-bottom: 1rem;
 }
 .left-column sub {
     font-style: italic;
 }
-
 .left-column h2 {
     font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 0.1rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
 }
-
+.left-column sub {
+    margin-left: 0.1rem;
+    margin-bottom: 1rem;
+}
+.right-column h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 0.1rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
 .left-column div {
-    width: 350px;
+    /* width: 350px; */
     height: 60px;
     background-color: white;
     margin-right: 25px;
     margin-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 .right-column div {
-    width: 350px;
+    /* width: 350px; */
     height: 60px;
     background-color: white;
     margin-right: 25px;
     margin-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 .project-container {
-    width: 900px;
+    width: 1000px;
     display: flex;
-    background-color: lightgrey;
+    margin: 0 auto;
+    background-color: #ececec;
+    font-family: sans-serif;
 }
 .other {
     color: black;
@@ -52,8 +72,12 @@
 .image {
     width: 10%;
 }
+.column-title {
+}
 .box {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEM9koY4Uq7M5aNjT2oE6A0i0Ktxz_fDVbRzNZWi_G-zhgtAi);
+    background-image: url(https://pypi.org/static/images/white-cube.8c3a6fe9.svg);
     background-repeat: no-repeat;
     background-size: 10%;
+    background-position: 1rem 0.3rem;
+    border: 2.1px solid lightgray;
 }
