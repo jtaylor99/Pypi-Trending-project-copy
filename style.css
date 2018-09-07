@@ -1,0 +1,59 @@
+.column-title {
+    color: blue;
+    font-family: sans-serif;
+}
+.left-column em {
+    font: 10px;
+}
+.left-column {
+    width: 50%;
+}
+.right-column {
+    width: 50%;
+}
+.left-column sub {
+    font-style: italic;
+}
+
+.left-column h2 {
+    font-family: sans-serif;
+}
+
+.left-column div {
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.right-column div {
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.project-container {
+    width: 900px;
+    display: flex;
+    background-color: lightgrey;
+}
+.other {
+    color: black;
+}
+.italic-words {
+    font-size: 10px;
+    font-weight: 5%;
+    position: relative;
+    bottom: 15px;
+}
+.image {
+    width: 10%;
+}
+.box {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEM9koY4Uq7M5aNjT2oE6A0i0Ktxz_fDVbRzNZWi_G-zhgtAi);
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
